@@ -11,5 +11,6 @@ export class CreatePostDto {
     tags: string
 
     @IsString()
+    @IsNotEmpty()
     image: string
 }
